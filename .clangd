@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - --target=mips64r5900el-ps2-elf
+    - -IF:/tools/ps2dev/gsKit/include
+    - -IF:/tools/ps2dev/ps2sdk/ee/include
+    - -IF:/tools/ps2dev/ps2sdk/common/include
