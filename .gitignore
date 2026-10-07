@@ -1,0 +1,17 @@
+# Mojang/MC assets
+assets/sounds/*
+assets/textures/*
+assets/fonts/*
+
+# retain the empty directories for assets, user will place their legally acquired assets here
+!assets/sounds/.gitkeep
+!assets/textures/.gitkeep
+!assets/fonts/.gitkeep
+
+build/
+bin/
+obj/
+*.elf
+*.map
+*.irx
+*.o
