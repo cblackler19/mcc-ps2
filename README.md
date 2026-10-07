@@ -1,5 +1,5 @@
 # mcc-ps2
-A work-in-progress unofficial port of Minecraft c0.30_01c (indev) for the Playstation 2.
+A work-in-progress unofficial port of Minecraft classic c0.30_01c for the Playstation 2.
 
 # Legal
 This project does not contain, or distribute Minecraft game assets.
