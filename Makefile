@@ -2,8 +2,8 @@ EE_BIN = mcc-ps2.elf
 EE_OBJS = src/main.o
 
 EE_INCS = -IF:/tools/ps2dev/gsKit/include
-EE_LDFLAGS = -LF:/tools/ps2dev/gsKit/lib
-EE_LIBS = -lgskit -ldmakit
+EE_LDFLAGS = -LF:/tools/ps2dev/gsKit/lib -LF:/tools/ps2dev/ps2sdk/ports/lib
+EE_LIBS = -lgskit_toolkit -lgskit -ldmakit -lpng -lz
 
 all: $(EE_BIN)
 
