@@ -3,6 +3,8 @@ assets/*
 !assets/**/
 !assets/**/.gitkeep
 
+!assets/EXTRACT_JAR_HERE
+
 build/
 bin/
 obj/
