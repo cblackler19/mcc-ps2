@@ -26,7 +26,7 @@ int main(void)
     if (gsKit_texture_png(
             gsGlobal,
             &dirt,
-            "host:assets/textures/dirt.png"
+            "host:assets/dirt.png"
         ) != 0)
     {
         return 1;
